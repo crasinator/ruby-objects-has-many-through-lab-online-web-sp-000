@@ -19,7 +19,6 @@ class Doctor
        point.doctor == self
     end 
   end 
- 
   
   def new_appointment(a, b)
     new_appointment = Appointment.new(a, b, self)
